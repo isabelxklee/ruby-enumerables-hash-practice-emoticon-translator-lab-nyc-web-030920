@@ -46,7 +46,7 @@ def get_english_meaning(emoticons, japanese_emo)
       end
     }
 
-    if get_emoticon.include? japanese_emo = false
+    if get_emoticon.include? japanese_emo == false
       meaning = "Sorry, that emoticon was not found"
     end 
   
